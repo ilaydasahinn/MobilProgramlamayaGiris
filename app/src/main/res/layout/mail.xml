@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/gradient2"
+    android:id="@+id/mailLayout">
+
+    <EditText
+        android:id="@+id/etTo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="46dp"
+        android:ems="10"
+        android:hint=" To"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/colorWhite" />
+
+    <EditText
+        android:id="@+id/etMessage"
+        android:layout_width="363dp"
+        android:layout_height="236dp"
+        android:layout_below="@+id/etSeubject"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="46dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint=" Enter your message here!"
+        android:inputType="textMultiLine"
+        android:textColorHint="@color/colorWhite" />
+
+    <ImageView
+        android:id="@+id/ivAttach"
+        android:layout_width="68dp"
+        android:layout_height="85dp"
+        android:layout_below="@+id/etMessage"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="278dp"
+        app:srcCompat="@drawable/ic_action_attach" />
+
+    <Button
+        android:id="@+id/btnAttach"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivAttach"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="272dp"
+        android:background="#C4118675"
+        android:text="Attach"
+        android:textColor="@color/colorWhite"
+        android:textSize="18dp"/>
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="42dp"
+        android:background="#C4118675"
+        android:text="Send"
+        android:textColor="@color/colorWhite"
+        android:textSize="18dp"/>
+
+    <EditText
+        android:id="@+id/etSeubject"
+        android:layout_width="326dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etTo"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="46dp"
+        android:ems="10"
+        android:hint=" Subject"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/colorWhite" />
+
+</RelativeLayout>
