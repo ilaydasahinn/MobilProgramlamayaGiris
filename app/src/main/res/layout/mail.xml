@@ -18,7 +18,8 @@
         android:ems="10"
         android:hint=" To"
         android:inputType="textEmailAddress"
-        android:textColorHint="@color/colorWhite" />
+        android:textColorHint="@color/colorWhite"
+        android:textColor="@color/colorWhite"/>
 
     <EditText
         android:id="@+id/etMessage"
@@ -34,7 +35,8 @@
         android:gravity="start|top"
         android:hint=" Enter your message here!"
         android:inputType="textMultiLine"
-        android:textColorHint="@color/colorWhite" />
+        android:textColorHint="@color/colorWhite"
+        android:textColor="@color/colorWhite"/>
 
     <ImageView
         android:id="@+id/ivAttach"
@@ -89,6 +91,7 @@
         android:ems="10"
         android:hint=" Subject"
         android:inputType="textPersonName"
-        android:textColorHint="@color/colorWhite" />
+        android:textColorHint="@color/colorWhite"
+        android:textColor="@color/colorWhite"/>
 
 </RelativeLayout>

@@ -92,9 +92,7 @@ public class SensorActivity extends AppCompatActivity implements SensorEventList
             }
             old = diff;
         }
-
     }
-
     @Override
     public void onAccuracyChanged(Sensor sensor, int accuracy) {
 

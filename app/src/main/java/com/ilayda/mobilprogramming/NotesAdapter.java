@@ -39,16 +39,11 @@ public class NotesAdapter extends RecyclerView.Adapter  <NotesAdapter.MyViewHold
 
         }
     }
-
-
-
     public NotesAdapter(List< NotesBuilder > notesList, Context context) {
         this.notesList = notesList;
         mActivity = (Activity) context;
 
     }
-
-
 
     @Override
     public MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
@@ -57,8 +52,6 @@ public class NotesAdapter extends RecyclerView.Adapter  <NotesAdapter.MyViewHold
         View listItem= layoutInflater.inflate(R.layout.note_list_item, parent, false);
         MyViewHolder viewHolder = new MyViewHolder(listItem);
         return viewHolder;
-
-
     }
 
     @Override

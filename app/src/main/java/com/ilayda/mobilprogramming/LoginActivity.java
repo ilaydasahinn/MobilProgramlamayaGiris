@@ -92,23 +92,7 @@ public class LoginActivity extends AppCompatActivity {
 
     }
 
-    /*private  void  validate(String userName, String userPassword){
 
-        if((userName.equals("admin")) && (userPassword.equals("1234"))){
-            Toast.makeText(getApplicationContext(),"Login Successful", Toast.LENGTH_LONG).show();
-            Intent intent = new Intent(LoginActivity.this, MenuActivity.class);
-            startActivity(intent);
-        }else{
-            counter--;
-            if(counter != 0) {
-                Toast.makeText(getApplicationContext(), "Wrong Username or Password", Toast.LENGTH_LONG).show();
-            }
-            else{
-                Toast.makeText(getApplicationContext(),"Login Unsuccessful", Toast.LENGTH_LONG).show();
-                finish();
-            }
-        }
-    }*/
     private boolean checkPermissions() {
         int result;
         List<String> listPermissionsNeeded = new ArrayList<>();

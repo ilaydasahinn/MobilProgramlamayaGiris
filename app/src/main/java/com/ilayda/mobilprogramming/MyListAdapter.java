@@ -50,9 +50,7 @@ public class MyListAdapter extends RecyclerView.Adapter<MyListAdapter.ViewHolder
                 Toast.makeText(view.getContext(),"click on item: "+myListData.getUsername(),Toast.LENGTH_LONG).show();
             }
         });
-
     }
-
 
     @Override
     public int getItemCount() {
